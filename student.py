@@ -16,5 +16,8 @@ class Student:
   def your_initials(self):
       return f"Hello your initials are {self.firstname[0]} {self.lastname[0]}"    
 
-
+list_a=[1,2,3,4,5]
+list_b=[10,20,30,40,50]
+list_c=list_a+list_b
+print(list_c)
     
